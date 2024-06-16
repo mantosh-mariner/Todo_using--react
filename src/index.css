@@ -1,0 +1,232 @@
+
+/* body{
+    display: flex;
+justify-content: center;
+align-items: center;
+} */
+#root{
+    height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 212, 210);
+}
+.main_div
+{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    min-width: 250px;
+    height: 350px;
+    padding: 4px;
+    /* display: flex; */
+    /* overflow: hidden; */
+
+}
+.center_div{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 250px; */
+   
+
+}
+h1{
+    background-color: rgb(187, 147, 227);
+    border-radius: 4px;
+    width: 100%;
+    border:solid;
+    border-width: 0px 3px;
+
+}
+.input{
+    outline: none;
+    border: none;
+    border-bottom: solid 3px;
+    padding: 2px;
+    background-color:#d5d9dd;
+    border-radius: 3px;
+    margin-right: 5px;
+    text-align: center;
+}
+.bt
+{
+    background-color: rgb(187, 147, 227);
+    border:none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 4px grey;
+    cursor: pointer;
+}
+.bt:hover{
+background-color: green;
+font-weight: bold;
+}
+.Style
+{
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+    /* cursor: pointer; */
+    max-width: 200px;
+    margin-right:10px ;
+    /* overflow: scroll; */
+}
+i:hover{
+    color: red;
+    cursor: pointer;
+}
+.todo{
+    height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+
+/* challlenge  */
+.chall_main
+{
+    background-color: rgb(169, 157, 142);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    border-radius: 0px 10px;
+
+}
+.Chall_btn{
+    background-color: rgb(126, 215, 185);
+    border: none;
+    padding : 5px 15px;
+    cursor: pointer;
+    
+}
+.Chall_btn:hover{
+    box-shadow: 2px 2px 3px green;
+    border-radius: 4px;
+}
+.btn_cla{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+    width: 100%;
+}
+.p{
+    /* background-color: red; */
+    background-color: rgb(242, 237, 237);
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* google keep notes 
+ */
+ .bg-body-tertiary{
+
+    /* background-color: transparent; */
+    background-color: rgb(91, 100, 123)  !important;
+    position: sticky;
+    top: 0px;
+ }
+ .navbar-brand
+ {
+    display: flex;
+ }
+ footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(58, 53, 53);
+    color: rgb(245, 236, 236);
+    text-align: center;
+    padding: 20px;
+  }
+  .full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    position: sticky;
+    top: 80px;
+  }
+  .Main{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+   
+  }
+  .Main input{
+    outline: none;
+    border: none;
+    border-bottom: solid;
+    background-color: transparent;
+    text-align: center;
+  }
+  .Main textarea{
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+  .Main i{
+    position: relative;
+    margin-bottom: -10px;
+    background-color: rgb(42, 165, 83);
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 87%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    box-shadow: 2px 3px 4px rgb(138, 86, 86);
+  }
+  .Main i:hover{
+    color: rgb(178, 115, 69);
+    background-color: darkgreen;
+  }
+  .Piece
+  {
+    width:150px;
+    /* height: 100px; */
+    background-color: rgb(241, 244, 233);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* text-align: center; */
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 20px;
+  }
+  .ii{
+    /* background-color: red; */
+    display: flex;
+    justify-content: end;
+  }
+  .i{
+    /* margin-bottom:100px; */
+    background-color: rgb(193, 219, 149);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 3px 3px 4px grey;
+    
+  }
+  .ii i:hover{
+    color:rgb(193, 110, 9);
+  }
+  .small_div{
+    display: flex;
+  }
